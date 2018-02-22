@@ -18,25 +18,21 @@ const styles = {
 const NavigationTabs = () => (
   <Tabs>
     <Tab label="Home" style={{background: "#173E45"}}>
-      <div>
+      <div style={{padding: "20px"}}> 
         <h2 style={styles.headline}>Home</h2>
         <p>
-          Short description of IBG
+          Ask Bobby for a short description of IBG. Ask for any content/pictures that he might want on home tab.
         </p>
-        <p>
-          You can put any sort of HTML or react component in here. It even keeps the component state!
-        </p>
-        <Slider name="slider0" defaultValue={0.5} />
       </div>
     </Tab>
     <Tab label="Projects" style={{background: "#173E45"}}>
         <PhotoGrid/>
     </Tab>
     <Tab label="Services" style={{background: "#173E45"}}>
-      <div>
+      <div style={{padding: "20px"}}>
         <h2 style={styles.headline}>Services</h2>
         <p>
-          Describe services offered
+          Describe services offered and add pricing if necessary.
         </p>
       </div>
     </Tab>

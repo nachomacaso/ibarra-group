@@ -111,16 +111,16 @@ export default class ContactUs extends Component {
                                style={{textAlign: "left"}}
                                floatingLabelFixed={true}/><br /><br />
 
-                    <RaisedButton label="Submit" primary={true} style={{width: "256px"}}/>
+                    <RaisedButton className="Contact-button" label="Submit" primary={true} backgroundColor="#17363D" style={{width: "256px"}}/>
                 </div>
                 <div className="Contact-details">
                     <h2 className="Contact-title">Ibarra Group LLC.</h2>            
                     <p className="Contact-address">
-                        <span><i className="material-icons">home</i>
+                        <span><i className="material-icons" style={{fontSize: "15px"}}>home</i>
                         3100 S Homan Ave
                         <br/>Chicago, Illinois<br/>
                         </span>
-                    <i className="material-icons">local_phone</i>(773) 650-0503</p>
+                    <i className="material-icons" style={{fontSize: "15px"}}>local_phone</i>(773) 650-0503</p>
                     <br />
                     <Iframe url="https://snazzymaps.com/embed/49266"
                             width="600px"
